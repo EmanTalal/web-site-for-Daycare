@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <html dir="rtl" lang="en">
+        <meta name="viewport" content="with=device-width , initial-scale=1.0">
+    <title>University Website Desing</title>
+    <link  href="style.css" rel="stylesheet" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"> <img src="Logo.png" >  </a>
+                <div class="nav-links" id="navLinks">
+
+                    <ul>
+                        <li><a href="How are .html">من نحن</a></li>
+                        <li><a href="conditions.html">الشروط </a></li>
+                    <li><a href="plann.html">خطط التسجيل </a></li>
+                    <li><a href="Register dates.html">مواعيد التسجيل</a></li>
+                    <li><a href="contact.html">تواصل معنا</a></li>
+                    </ul>
+                </div>
+            </nav>
+                <h1>تواصل معنا </h1>
+        </section>
+
+        <!-- ---- contact us-- -->
+            <section class="location">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14121.884903744674!2d46.71195535751976!3d24.808428531798594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2efc8daaaaaaab%3A0xb6ca5a0d95885833!2z2KzYp9mF2LnYqSDYp9mE2KXZhdin2YUg2YXYrdmF2K8g2KjZhiDYs9i52YjYryDYp9mE2KXYs9mE2KfZhdmK2Kk!5e0!3m2!1sar!2ssa!4v1668071035597!5m2!1sar!2ssa" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </section>
+
+            <section class="conact-us">
+                    <div class="row">
+                        <div class="contact-col">
+
+                            <div>
+                                <i class="fa fa-home" ></i>
+                                <span>
+                                <h5>طريق عثمان بن عفان , مخرج 7  , الرياض</h5>
+                    
+                                <p>مبنى 415</p>
+                            </span>
+                            </div>
+
+                            <div>
+                                <i class="fa fa-phone" ></i>
+                                <span> 
+                                     <h5> 0112598439</h5>
+                                    <p> Sunday to Thursday, 7AM to 6PM</p>
+                                </span>
+                            </div>
+
+                            <div>
+                                <i class="fa fa-envelope-open" ></i>
+                                <span>
+                                    <h5>تويتر</h5>
+                                    <p>@bikikaim</p>
+                                </span>
+                            </div>
+                        </div>
+
+
+
+                        <div class="contact-col"> 
+                                
+                            <form acction="form-handler.php" method="post">
+                                <input type="text" name="name" placeholder="Enter your name" required>
+                                <input type="email" name="email" placeholder="Enter  email addres" required>
+                                <input type="text"name="subject" placeholder="Enter your subject" required>
+                                <textarea rows="8"name="message"  placeholder="Massage"></textarea>
+                                <button type="submite" class="hero-btn rad-btn"> Send Message</button>
+
+
+                            </form>
+                        
+                        
+                        </div>
+                    </div>
+            </section>
+
+           
+            <!--------Footer------>
+            <section class="footer">
+                <h4>من نحن</h4>
+                <p>حضانات مدينة الملك عبدلله للطالبات <br>هي إحدى الخدمات المقدمة من جامعة الامام حمد بن سعود الإسلاميه لجميع من داخل وخارج الجامعة 
+                    <br> . نهدف في حضانات مدينة الملك عبدلله لطالبات الى تهيئة بيئة صحية آمنه تلبي احتياجات الطفل وغرس القيم الدينية والوسيطة فيه ومساعدته على اكتساب المعارف والمهارات الحياتية 
+                    
+                        <br> 
+                    </p>
+            </section>
+
+
+
+        <script>
+
+            // ------JavaScript for Toggle Mneu------
+            var navLinks=document.getElementById("navLinks"); 
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+
+
+
+</body>
+</html>
